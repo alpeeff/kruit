@@ -1,0 +1,30 @@
+{
+  "root": true,
+  "extends": ["@react-native-community", "prettier"],
+  "plugins": ["react-native"],
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": "latest",
+    "sourceType": "module"
+  },
+  "rules": {
+    "curly": "error",
+    "semi": "off",
+    "no-undef": "off",
+    "no-console": "warn",
+    "react-native/no-unused-styles": "warn",
+    "react/react-in-jsx-scope": "off",
+    "react-native/no-single-element-style-arrays": "warn",
+    "react-hooks/exhaustive-deps": "off",
+    "react/no-unstable-nested-components": "off",
+    "@typescript-eslint/explicit-function-return-type": "warn",
+    "@typescript-eslint/no-unused-vars": "warn",
+    "@typescript-eslint/no-shadow": "error",
+    "eslint-comments/no-unlimited-disable": "error"
+  },
+  "env": {
+    "react-native/react-native": true
+  }
+}
